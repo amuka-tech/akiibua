@@ -1,5 +1,5 @@
 import PageLayout from "@/components/PageLayout";
-import Image from "next/image";
+import Image from "@/components/ImageWrapper";
 
 export default function WebcamPage() {
   return (

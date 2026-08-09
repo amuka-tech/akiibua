@@ -1,7 +1,7 @@
 import HeroSection from "@/components/HeroSection";
 import VirtualCard from "@/components/VirtualCard";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "@/components/ImageWrapper";
 
 export default function EventVenuePage() {
   return (

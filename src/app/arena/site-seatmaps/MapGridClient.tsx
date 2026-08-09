@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import Image from "next/image";
+import Image from "@/components/ImageWrapper";
 import CardGrid from "@/components/ui/CardGrid";
 import { MapData } from "@/data/maps";
 

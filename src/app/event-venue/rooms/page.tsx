@@ -1,5 +1,5 @@
 import HeroSection from "@/components/HeroSection";
-import Image from "next/image";
+import Image from "@/components/ImageWrapper";
 import CardGrid from "@/components/ui/CardGrid";
 import { rooms } from "@/data/rooms";
 import { Metadata } from "next";

@@ -4,7 +4,7 @@ import NewsCard from "@/components/NewsCard";
 import VirtualCard from "@/components/VirtualCard";
 import InfoCard from "@/components/InfoCard";
 import Link from "next/link";
-import Image from "next/image";
+import Image from "@/components/ImageWrapper";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {

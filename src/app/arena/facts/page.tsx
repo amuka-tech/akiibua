@@ -1,5 +1,5 @@
 import HeroSection from "@/components/HeroSection";
-import Image from "next/image";
+import Image from "@/components/ImageWrapper";
 
 const akiiBuaFacts = [
   { label: "Historic Triumph", value: "Won the 400-meter hurdles gold at the 1972 Lira Olympics with a world record time of 47.82 seconds." },

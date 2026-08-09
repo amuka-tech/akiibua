@@ -1,5 +1,5 @@
 import HeroSection from "@/components/HeroSection";
-import Image from "next/image";
+import Image from "@/components/ImageWrapper";
 
 export default function MuseumArenaTourPage() {
   return (

@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "@/components/ImageWrapper";
 import { TourCategory } from "@/data/tours";
 
 interface ModalProps {
