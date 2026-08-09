@@ -20,7 +20,7 @@ export default function RootLayout({
       <body className={outfit.className}>
         <NextTopLoader color="#dc052d" height={2} showSpinner={false} />
         <Header />
-        <main className="min-h-screen pt-[104px] lg:pt-[116px]">{children}</main>
+        <main className="min-h-screen pt-[80px] lg:pt-[98px]">{children}</main>
         <Footer />
       </body>
     </html>
