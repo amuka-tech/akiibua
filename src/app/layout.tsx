@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={outfit.className}>
-        <NextTopLoader color="#dc052d" showSpinner={false} />
+        <NextTopLoader color="#dc052d" height={2} showSpinner={false} />
         <Header />
         <main className="min-h-screen pt-[104px] lg:pt-[116px]">{children}</main>
         <Footer />
