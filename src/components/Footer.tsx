@@ -111,7 +111,7 @@ export default function Footer() {
         <div className="border-t border-white/10 pt-8 flex flex-col lg:flex-row items-center justify-between gap-8">
           <div className="flex flex-col md:flex-row items-center gap-6">
             <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-              <ImageWrapper src="/logo.png" alt="Akii-Bua Stadium Logo" width={190} height={40} className="h-10 w-auto" />
+              <ImageWrapper src="/logo.png" alt="Akii-Bua Stadium Logo" width={240} height={64} className="h-14 md:h-16 w-auto" />
             </Link>
             <span className="text-white/40 text-xs hidden md:block">|</span>
             <span className="text-white/40 text-xs text-center md:text-left">© 2026 Akii-Bua Olympic Stadium. All rights reserved.</span>
