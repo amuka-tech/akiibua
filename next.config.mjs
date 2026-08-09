@@ -3,7 +3,8 @@ const nextConfig = {
   output: 'export',
   basePath: '/akiibua',
   images: {
-    unoptimized: true,
+    loader: 'custom',
+    loaderFile: './my-loader.js',
     remotePatterns: [
       { protocol: 'https', hostname: 'placehold.co' },
     ],
