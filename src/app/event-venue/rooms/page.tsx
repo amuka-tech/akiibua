@@ -3,6 +3,7 @@ import Image from "@/components/ImageWrapper";
 import CardGrid from "@/components/ui/CardGrid";
 import { rooms } from "@/data/rooms";
 import { Metadata } from "next";
+import Link from "next/link";
 
 export const metadata: Metadata = {
   title: "Event Rooms | Akii-Bua Olympic Stadium",
@@ -101,9 +102,9 @@ export default function RoomsPage() {
                     </p>
                   </div>
                   
-                  <button className="w-full py-3 bg-slate-50 text-arena-navy font-bold text-xs uppercase tracking-[2px] rounded hover:bg-arena-red hover:text-white transition-colors border border-gray-200 hover:border-transparent">
+                  <Link href={`/event-venue/rooms/${room.slug}`} className="w-full py-3 bg-slate-50 text-arena-navy font-bold text-xs uppercase tracking-[2px] rounded hover:bg-arena-red hover:text-white transition-colors border border-gray-200 hover:border-transparent text-center block">
                     View Details
-                  </button>
+                  </Link>
                 </div>
               </div>
             )}

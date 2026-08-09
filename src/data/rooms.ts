@@ -1,5 +1,6 @@
 export interface RoomData {
   title: string;
+  slug: string;
   capacity: string;
   size: string;
   idealFor: string;
@@ -9,6 +10,7 @@ export interface RoomData {
 export const rooms: RoomData[] = [
   {
     title: "Presenterbox 3",
+    slug: "presenterbox-3",
     capacity: "8",
     size: "45",
     idealFor: "Evening events, Workshops, Get-Togethers",
@@ -16,6 +18,7 @@ export const rooms: RoomData[] = [
   },
   {
     title: "Presenterbox 5",
+    slug: "presenterbox-5",
     capacity: "10",
     size: "35.9",
     idealFor: "Evening events, Workshops, Get-Togethers",
@@ -23,6 +26,7 @@ export const rooms: RoomData[] = [
   },
   {
     title: "Presenterbox 6",
+    slug: "presenterbox-6",
     capacity: "20",
     size: "61",
     idealFor: "Evening events, Workshops, Get-Togethers",
@@ -30,6 +34,7 @@ export const rooms: RoomData[] = [
   },
   {
     title: "Cooking Lounge",
+    slug: "cooking-lounge",
     capacity: "36",
     size: "157",
     idealFor: "Evening events, Workshops, Conferences",
@@ -37,6 +42,7 @@ export const rooms: RoomData[] = [
   },
   {
     title: "Weinbar",
+    slug: "weinbar",
     capacity: "40",
     size: "126",
     idealFor: "Evening events, Get-Togethers, Lunch",
@@ -44,6 +50,7 @@ export const rooms: RoomData[] = [
   },
   {
     title: "Davidoff Lounge",
+    slug: "davidoff-lounge",
     capacity: "40",
     size: "137",
     idealFor: "Evening events, Get-Togethers",

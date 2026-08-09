@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import ImageWrapper from "@/components/ImageWrapper";
 
 const navLinks = [
   { 
@@ -78,10 +79,7 @@ export default function Header() {
 
       <div className="flex items-center justify-between px-6 py-3 lg:py-4">
         <Link href="/" className="flex items-center gap-2 shrink-0">
-          <svg viewBox="0 0 180 36" className="h-8 w-auto transition-transform hover:scale-105" fill="white">
-            <text x="0" y="26" fontSize="22" fontWeight="bold" fontFamily="Arial" letterSpacing="2">akiibua</text>
-            <text x="108" y="26" fontSize="11" fontWeight="300" fontFamily="Arial" letterSpacing="1">ARENA</text>
-          </svg>
+          <ImageWrapper src="/logo.png" alt="Akii-Bua Stadium Logo" width={180} height={40} className="h-10 w-auto transition-transform hover:scale-105" />
         </Link>
 
         <nav className="hidden lg:flex items-center gap-2">

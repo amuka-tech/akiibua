@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ImageWrapper from "@/components/ImageWrapper";
 
 const footerColumns = [
   {
@@ -110,10 +111,7 @@ export default function Footer() {
         <div className="border-t border-white/10 pt-8 flex flex-col lg:flex-row items-center justify-between gap-8">
           <div className="flex flex-col md:flex-row items-center gap-6">
             <Link href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-              <svg viewBox="0 0 190 36" className="h-6 w-auto" fill="white">
-                <text x="0" y="26" fontSize="22" fontWeight="bold" fontFamily="Arial" letterSpacing="1">AKII-BUA</text>
-                <text x="115" y="26" fontSize="11" fontWeight="300" fontFamily="Arial" letterSpacing="1">STADIUM</text>
-              </svg>
+              <ImageWrapper src="/logo.png" alt="Akii-Bua Stadium Logo" width={190} height={40} className="h-10 w-auto" />
             </Link>
             <span className="text-white/40 text-xs hidden md:block">|</span>
             <span className="text-white/40 text-xs text-center md:text-left">© 2026 Akii-Bua Olympic Stadium. All rights reserved.</span>
