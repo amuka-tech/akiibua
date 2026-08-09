@@ -15,7 +15,10 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return (
     <div className="bg-arena-gray min-h-screen">
-      <HeroSection image="/akiibua_impression_night.jpg" />
+      <HeroSection 
+        title={<>Akii-Bua Olympic<br />Stadium</>}
+        image="/akiibua_impression_night.jpg" 
+      />
 
       {/* Tours & Museum */}
       <section className="bg-white border-b border-gray-100">

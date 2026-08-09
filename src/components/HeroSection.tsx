@@ -1,8 +1,8 @@
 import Image from "@/components/ImageWrapper";
 
 interface HeroSectionProps {
-  title?: string;
-  subtitle?: string;
+  title?: React.ReactNode;
+  subtitle?: React.ReactNode;
   image?: string;
   size?: "large" | "small";
 }
