@@ -22,7 +22,7 @@ export default function HeroSection({
       <div className="absolute inset-0 bg-arena-dark">
         <Image
           src={image}
-          alt={title || "Arena"}
+          alt={typeof title === "string" ? title : "Arena"}
           fill
           className="object-cover opacity-80 group-hover:scale-105 transition-transform duration-1000"
           priority
