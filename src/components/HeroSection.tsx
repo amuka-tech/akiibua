@@ -13,7 +13,7 @@ export default function HeroSection({
   image = "/arena_night_hero_1782318185369.png",
   size = "large",
 }: HeroSectionProps) {
-  const heightClass = size === "large" ? "h-[75vh] min-h-[500px]" : "h-[35vh] min-h-[250px] md:h-[40vh]";
+  const heightClass = size === "large" ? "h-[85vh] min-h-[500px]" : "h-[35vh] min-h-[250px] md:h-[40vh]";
   const titleClass = size === "large" ? "text-5xl md:text-6xl lg:text-8xl" : "text-4xl md:text-5xl lg:text-6xl";
   const subtitleClass = size === "large" ? "text-xl md:text-3xl" : "text-lg md:text-xl";
 
@@ -30,9 +30,9 @@ export default function HeroSection({
       </div>
       <div className="absolute inset-0 bg-gradient-to-t from-arena-dark via-arena-dark/40 to-transparent" />
       <div className="absolute inset-0 bg-gradient-to-r from-arena-dark/80 via-arena-dark/40 to-transparent" />
-      
+
       <div className="absolute inset-0 flex flex-col justify-center text-white px-8 md:px-16 max-w-7xl mx-auto">
-        <div className="max-w-3xl animate-slide-up">
+        <div className="max-w-5xl animate-slide-up">
           <div className="w-16 h-1 bg-arena-red mb-6" />
           <h1 className={`${titleClass} font-black mb-4 tracking-tighter uppercase drop-shadow-[0_0_15px_rgba(220,5,45,0.4)]`}>
             {title}

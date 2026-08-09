@@ -3,6 +3,7 @@ import { Outfit } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import NextTopLoader from 'nextjs-toploader';
 
 const outfit = Outfit({ subsets: ["latin"] });
 
@@ -17,6 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={outfit.className}>
+        <NextTopLoader color="#dc052d" showSpinner={false} />
         <Header />
         <main className="min-h-screen pt-[88px] lg:pt-[92px]">{children}</main>
         <Footer />
